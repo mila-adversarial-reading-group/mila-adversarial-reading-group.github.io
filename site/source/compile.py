@@ -16,28 +16,32 @@ custom = json.loads(open('custom.json').read())
 
 
 # Get all sections
-sections = ['proposals', 'home', 'schedule', 'acceptedpapers', 'cfp', 'organizers']
+sections = ['team', 'past_presentations']
 
 for section_name in sections :
 	attributes = custom['default'].copy()
 	attributes.update(custom.get(section_name, {}))
-	
+
 	html = """<%include file="header"/> <%include file="{}"/>  <%include file="footer"/>""".format(section_name)
-	
+
 	section = Template(html, lookup=mylookup, strict_undefined=False)
-	
-	try : 
+
+	try :
 		s = section.render(**attributes)
 		outfile = open('../%s.htm' % section_name, "w")
 		outfile.write(str(s))
 		outfile.close()
 
-	except Exception as e: 
+	except Exception as e:
+		import ipdb; ipdb.set_trace()
 		print(section_name, e)
-		
+
 		ctc = re.findall(reg, open(section_name).read())
 		atr = attributes.keys()
-		for c in ctc: 
+		# print(c)
+		print(atr)
+		print(ctc)
+		for c in ctc:
 			c = c.strip("${}")
 			if c not in atr:
 				print(section_name, " : ", c,  " is missing")
