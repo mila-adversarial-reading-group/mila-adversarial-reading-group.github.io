@@ -42,11 +42,6 @@
 
 		</script>
 
-
-		<h3>We thank our reviewers</h3>
-
-		<%include file="organizers_reviewers"/>
-
  		</p>
  		</div><!-- /.blog-post -->
           
