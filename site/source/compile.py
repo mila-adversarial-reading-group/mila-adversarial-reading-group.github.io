@@ -33,7 +33,6 @@ for section_name in sections :
 		outfile.close()
 
 	except Exception as e:
-		import ipdb; ipdb.set_trace()
 		print(section_name, e)
 
 		ctc = re.findall(reg, open(section_name).read())
@@ -45,6 +44,8 @@ for section_name in sections :
 			c = c.strip("${}")
 			if c not in atr:
 				print(section_name, " : ", c,  " is missing")
+		# import ipdb; ipdb.set_trace()
+
 		#print("footer", re.findall(reg, open("footer").read()))
 		#print("header", re.findall(reg, open("header").read()))
 

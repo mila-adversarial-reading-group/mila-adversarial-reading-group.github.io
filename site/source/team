@@ -1,5 +1,5 @@
 <div class="blog-header">
-	<h1 class="blog-title">Organizers</h1>
+	<h1 class="blog-title">Members</h1>
  </div>
 
 <div class="row">
@@ -9,12 +9,12 @@
 
 
 		<!-- Add chair and people in custom.json -->
-		% for c in chair.keys():
+		% for c in groups.keys():
 			<div class="row">
 
 			<h3>${c}</h3>
 
-   			 % for p in chair[c]: 
+   			 % for p in groups[c]: 
 
     			<div class="col-xs-3 person">
      				 <center><img class="img-circle hvr-buzz" src="${people[p]['img']}"></center>
@@ -25,22 +25,6 @@
 
 			</div>
 		% endfor    
-
-
-
-	<!--	<div class="row org-logos">
-			<h3>We thank the following organizations for allowing their members to participate</h3>
-
-
-
-		</div> -->
-
-		<script>
-		$(".logos-allowing").html($(".logos-allowing .logo").sort(function(){
- 			   return Math.random()-0.5;
-		}));
-
-		</script>
 
  		</p>
  		</div><!-- /.blog-post -->

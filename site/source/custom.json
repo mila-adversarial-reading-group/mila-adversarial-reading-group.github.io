@@ -17,16 +17,8 @@
   "conference_abbr" : "ICLR", 
   "conference_website" : "https://iclr.cc",
   "conference_city" : "New Orleans",
-  "conference_state" : "Louisiana",
-  "conference_location" : "Ernest N. Morial Convention Center, New Orleans",
   
   "github_link" : "https://github.com/mila-adversarial-reading-group/mila-adversarial-reading-group.github.io",
-  "deadline_date" : "to be announced",
-  "deadline_hour" : "", 
-  "notification_date" : "to be announced",
-  "cameraready_date" : "to be announced",
-  "submission_link" : "",
-  "overleaf_template_link" : "https://www.overleaf.com/latex/templates/template-for-neural-information-processing-systems-nips-2018/zxpdbfpqgxss",
   
   "people" : 
         { 
@@ -36,10 +28,9 @@
   },
  
 "team" : {
-      "chair" : 
+      "groups" : 
         {
-            "Schedule Chairs" :        ["Margaux Luck"],
-            "Paper Review and Call for Paper Chairs - Short Papers Track" :    ["Tristan Sylvain", "Margaux Luck"]
+            "Members" :    ["Tristan Sylvain", "Margaux Luck"]
         }
    }
 }

@@ -64,7 +64,7 @@ function pageScript(tomatch){
       <div class="container">
         <nav class="blog-nav">
           <a class="blog-nav-item" href="index.htm">Adversarial reading group at Mila</a>
-          <a class="blog-nav-item" href="past_presentaions.htm">Past presentations</a>
+          <a class="blog-nav-item" href="past_presentations.htm">Past presentations</a>
 			<!--<span class="dropdown">
 			  <a class="blog-nav-item dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#">
 			    Accepted Papers
