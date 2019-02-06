@@ -8,7 +8,7 @@
 
           <div class="blog-post">
 
-<h2>Presentation</h2>
+<h2>2019 presentations</h2>
 <style type="text/css">
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -21,14 +21,16 @@
 <col style="">
 </colgroup>
   <tr>
-    <th class="tg-0lax">Paper Title</th>
+  	<th class="tg-0lax">Slides</th>
+    <th class="tg-0lax">Presentation Title</th>
     <th class="tg-0lax">Presenter</th>
   </tr>
   <tr>
+  	<td class="tg-0lax">
     <br><a target="_blank" href="pdfs/slides/slides1.pdf"><img src="img/pdf.png" /></a>
     </td>
     <td class="tg-0lax"><br><a href="https://arxiv.org/abs/1805.12018">Generalizing to Unseen Domains via Adversarial Data Augmentation</a> and session intro</td>
-    <td class="tg-0lax">Tristan</td>
+    <td class="tg-0lax"><br>Tristan</td>
   </tr>
 </table>
 
