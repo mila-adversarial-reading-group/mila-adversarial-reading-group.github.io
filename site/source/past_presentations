@@ -25,12 +25,29 @@
     <th class="tg-0lax">Presentation Title</th>
     <th class="tg-0lax">Presenter</th>
   </tr>
+
   <tr>
   	<td class="tg-0lax">
     <br><a target="_blank" href="pdfs/slides/slides1.pdf"><img src="img/pdf.png" /></a>
     </td>
     <td class="tg-0lax"><br><a href="https://arxiv.org/abs/1805.12018">Generalizing to Unseen Domains via Adversarial Data Augmentation</a> and session intro</td>
-    <td class="tg-0lax"><br>Tristan</td>
+    <td class="tg-0lax"><br>Tristan Sylvain</td>
+  </tr>
+
+  <tr>
+    <td class="tg-0lax">
+    <br><a target="_blank" href="pdfs/slides/slides_chris_11_02_19.pdf"><img src="img/pdf.png" /></a>
+    </td>
+    <td class="tg-0lax"><br>How to be a GANsta (Introduction to GANs)</td>
+    <td class="tg-0lax"><br>Chris Beckham</td>
+  </tr>
+
+  <tr>
+    <td class="tg-0lax">
+    <br><a target="_blank" href="pdfs/slides/slides_david_11_02_19.pdf"><img src="img/pdf.png" /></a>
+    </td>
+    <td class="tg-0lax"><br><a href="https://arxiv.org/abs/1606.03476">Generative adversarial immitation learning</a></td>
+    <td class="tg-0lax"><br>David Krueger, Leonard Boussioux</td>
   </tr>
 </table>
 
