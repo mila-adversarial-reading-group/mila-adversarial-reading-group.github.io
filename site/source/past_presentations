@@ -49,6 +49,22 @@
     <td class="tg-0lax"><br><a href="https://arxiv.org/abs/1606.03476">Generative adversarial immitation learning</a></td>
     <td class="tg-0lax"><br>David Krueger, Leonard Boussioux</td>
   </tr>
+
+  <tr>
+    <td class="tg-0lax">
+    <br><a target="_blank" href="pdfs/slides/20181030_Mila_BigGAN.pdf"><img src="img/pdf.png" /></a>
+    </td>
+    <td class="tg-0lax"><br><a href="https://arxiv.org/abs/1809.11096">Big GAN</a></td>
+    <td class="tg-0lax"><br>Vikram Voleti</td>
+  </tr>
+
+  <tr>
+    <td class="tg-0lax">
+    <br><a target="_blank" href="pdfs/slides/missing.pdf"><img src="img/pdf.png" /></a>
+    </td>
+    <td class="tg-0lax"><br>Extensions of GAIL</a></td>
+    <td class="tg-0lax"><br>Leonard Boussioux</td>
+  </tr>
 </table>
 
             </p>
