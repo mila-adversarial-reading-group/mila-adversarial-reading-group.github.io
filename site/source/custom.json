@@ -23,14 +23,15 @@
   "people" : 
         { 
             "Margaux Luck" :        {"img": "img/margaux.jpg",  "affiliation":"Mila"},
-            "Tristan Sylvain" :     {"img": "img/tristan.jpg",  "affiliation":"Mila"}
+            "Tristan Sylvain" :     {"img": "img/tristan.jpg",  "affiliation":"Mila"},
+	        "Chris Beckham" :       {"img": "img/chris.jpg", "affiliation":"Mila"}
         }
   },
  
 "team" : {
       "groups" : 
         {
-            "Members" :    ["Tristan Sylvain", "Margaux Luck"]
+            "Members" :    ["Tristan Sylvain", "Margaux Luck", "Chris Beckham"]
         }
    }
 }
