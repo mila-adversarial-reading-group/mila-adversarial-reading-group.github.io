@@ -62,11 +62,20 @@
     <td class="tg-0lax">
     <br><a target="_blank" href="pdfs/slides/End2endGAIL.pdf"><img src="img/pdf.png" /></a>
     </td>
-    <td class="tg-0lax"><br>Extensions of GAIL</a></td>
+    <td class="tg-0lax"><br>Extensions of GAIL</td>
     <td class="tg-0lax"><br>Leonard Boussioux</td>
   </tr>
+
+  <tr>
+    <td class="tg-0lax">
+    <br><a target="_blank" href="pdfs/slides/slides_sandeep_24_02_19.pdf"><img src="img/pdf.png" /></a>
+    </td>
+    <td class="tg-0lax"><br><a href="https://nips.cc/Conferences/2018/Schedule?showEvent=11726">Towards text generation with adversarially learned "Neural outlines"</a></td>
+    <td class="tg-0lax"><br>Sandeep Subramanian</td>
+  </tr>
+
 </table>
 
-            </p>
+</p>
 </div><!-- /.blog-post -->
           
